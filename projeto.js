@@ -29,6 +29,7 @@ Estamos nesse momento em Iônia. O país está em ruínas devido a guerra contra
 Sinceramente, escapei por pouco. Perdi minha espada na batalha contra Darius e só fui salvo graças
 a tempestade de vento... `);
                 console.log();
+                
                 while(decisao!='S' || decisao!= 'N'){
                 decisao = prompt(`[Yashiro]: ${nome}, deseja ir buscar minha espada? (Use [S] para sim ou [N] para não):`);
                 decisao.toUpperCase().trim()
@@ -43,7 +44,7 @@ a tempestade de vento... `);
                 console.log('[Yashiro]: PER FEI TO! Achei a espada!')
                 contP++;
                 cont++;
-                
+
                 }else if(decisao=='N'){
                 console.log();
                 console.log(`[Yashiro]: ${nome}, minha espada é minha alma! Porém, vamos continuar na luta!`);
@@ -60,7 +61,6 @@ a tempestade de vento... `);
                 console.log();
                 contP++;
                 cont++;
-                
                 }
                 else if(decisao1=='N'){
                 console.log();
@@ -70,13 +70,13 @@ a tempestade de vento... `);
                 console.log();
                 cont++;
                 }
-
                 if(decisao1=='S'|| decisao1=='N'){break;}
                 }
                 console.log(`[Narrador]: Yashiro sai em busca de Darius para livrar seu país da devastação...`);
                 console.log();
                 console.log(`[Narrador]:Yashiro passa por arbustos e acha dois caminhos. Um é pela ponte e o outro é um pântano!`)
                 console.log();
+
         while(decisao2!='S' || decisao2!= 'N'){
                 decisao2 = prompt(`[Yashiro]: ${nome}, Vamos pela ponte que é segura? (Use S para sim ou N para nao):`);
                         
@@ -123,6 +123,7 @@ a tempestade de vento... `);
                 }
                 if(decisao3=='S'|| decisao3=='N'){break;}
                 }
+
                 console.log(`...`);
                 console.log('[Narrador]: Com as decisões boas ou ruins, estamos chegando ao final da saga de Yashiro!');
                 console.log();
@@ -133,7 +134,6 @@ a tempestade de vento... `);
                 console.log();
 
          while(decisao4!='S' || decisao4!= 'N'){
-
                 decisao4 = prompt(`[Yashiro]: Vamos furtivamente? (Use S para sim ou N para nao):`);  
                 if(decisao4=='S'){
                         console.log();
@@ -155,6 +155,7 @@ a tempestade de vento... `);
                 }
                 if(decisao4=='S'|| decisao4=='N'){break;}
                 }
+
                 console.log();
                 console.log(`[Narrador]: ${nome} agora as suas decisões serão julgadas!`);
                 console.log();
@@ -182,10 +183,9 @@ We are currently in Ionia. The country is in ruins due to the war against Noxus.
 Honestly, I barely escaped. I lost my sword in the battle against Darius and I was only saved thanks to
 the wind storm... `);
                 console.log(); 
+
         while(decisao!='Y' || decisao!= 'N'){
-                decisao = prompt(`[Yashiro]: ${nome}, do you want to go take my sword? (Use [Y] for YES or [N] for NO):`);
-                    
-                    
+                decisao = prompt(`[Yashiro]: ${nome}, do you want to go take my sword? (Use [Y] for YES or [N] for NO):`);    
                 if(decisao=='Y'){
                     console.log();
                     console.log('[Narrator]:After a long walk in the scorching sun, among dangerous animals and endless dunes...');
@@ -204,13 +204,10 @@ the wind storm... `);
                         console.log();
                         cont++;
                 }
-                if(decisao=='Y'|| decisao=='N'){break;}
-                          
+                if(decisao=='Y'|| decisao=='N'){break;}           
                 }
         while(decisao1!='Y' || decisao1!= 'N'){
-                decisao1 = prompt(`[Yashiro]: ${nome}, Shall we look for food? (Use [Y] for YES or [N] for NO):`);
- 
-                    
+                decisao1 = prompt(`[Yashiro]: ${nome}, Shall we look for food? (Use [Y] for YES or [N] for NO):`);  
                 if(decisao1=='Y'){
                         console.log();
                         console.log('[Yashiro]: Great! it will be easy to face that bastard!');
@@ -235,7 +232,6 @@ the wind storm... `);
         console.log();
 
         while(decisao2!='Y' || decisao2!= 'N'){
-
                 decisao2 = prompt(`[Yashiro]: ${nome}, Shall we cross the bridge, which is safer? (Use [Y] for YES or [N] for NO):`);
                 if(decisao2=='Y'){
                         console.log();
@@ -259,9 +255,7 @@ the wind storm... `);
         console.log(`[Yashiro]: this is amazing!`);
         console.log();
         while(decisao3!='Y' || decisao3!= 'N'){
-
                 decisao3 = prompt(`[Yashiro]: ${nome}, Shall we open the chest?? (Use [Y] for YES or [N] for NO):`);
-
                 if(decisao3=='Y'){
                     console.log();
                     console.log(`[Narrador]: Yashiro opened the box.`);
@@ -279,7 +273,6 @@ the wind storm... `);
                         cont++;
                 }
                 if(decisao3=='Y'|| decisao3=='N'){break;} 
-
                 }
         console.log(`[Narrator]: With decisions good or bad, we're coming to the end of Yashiro's saga!`);
         console.log();
@@ -304,7 +297,6 @@ the wind storm... `);
                     console.log();
                     console.log(`HASAKIII - SURIEGUEDOOOON`);
                     console.log();
-                
                 }
                 if(decisao4=='Y'|| decisao4=='N'){break;} 
                 }
