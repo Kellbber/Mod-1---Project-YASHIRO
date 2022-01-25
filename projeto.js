@@ -124,8 +124,6 @@ a tempestade de vento... `);
                 if(decisao3=='S'|| decisao3=='N'){break;}
                 }
                 console.log(`...`);
-                console.log(`...`);
-                console.log(`...`);
                 console.log('[Narrador]: Com as decisões boas ou ruins, estamos chegando ao final da saga de Yashiro!');
                 console.log();
                 console.log();
@@ -179,24 +177,24 @@ else if(contP===5){
  }
         else{
                 console.log('GAME IN ENGLISH- EUA');       
-                console.log(`[Character]: Welcome, ${nome}! My name is Yashiro and I will be the character you guide!
+                console.log(`[Character]: Welcome, ${nome}! My name is Yashiro and I am the character you will guide!
 We are currently in Ionia. The country is in ruins due to the war against Noxus...
-Honestly, I barely escaped. I lost my sword in the battle against Darius and I was only saved thanks
+Honestly, I barely escaped. I lost my sword in the battle against Darius and I was only saved thanks to
 the wind storm... `);
                 console.log(); 
         while(decisao!='Y' || decisao!= 'N'){
-                decisao = prompt(`[Yashiro]: ${nome}, you want to go take my sword? (Use Y for YES or N for NOT):`);
+                decisao = prompt(`[Yashiro]: ${nome}, do you want to go take my sword? (Use [Y] for YES or [N] for NO):`);
                     
                     
                 if(decisao=='Y'){
                     console.log();
-                    console.log('[Narrator]:After a long walk with scorching sun, dangerous animals and endless dunes...');
+                    console.log('[Narrator]:After a long walk in the scorching sun, among dangerous animals and endless dunes...');
                     console.log();
                     console.log('[Yashiro]: We arrived!!');
                     console.log();
                     console.log('[rummaging through the boxes]')
                     console.log();
-                    console.log('[Yashiro]: PER-FECT! I find my sword!')
+                    console.log('[Yashiro]: PER-FECT! I found my sword!')
                     contP++;
                     cont++;
                     }
@@ -210,7 +208,7 @@ the wind storm... `);
                           
                 }
         while(decisao1!='Y' || decisao1!= 'N'){
-                decisao1 = prompt(`[Yashiro]: ${nome}, Shall we look for food? (Use [Y] for YES or [N] for NOT):`);
+                decisao1 = prompt(`[Yashiro]: ${nome}, Shall we look for food? (Use [Y] for YES or [N] for NO):`);
  
                     
                 if(decisao1=='Y'){
@@ -224,7 +222,7 @@ the wind storm... `);
                         console.log();
                         console.log(`[Yashiro]: ${nome}, No food? Are you sure? ok, let's continue...!`);
                         console.log();
-                        console.log('[Narrator]: you reap what you sow...be careful in your decisions!')
+                        console.log('[Narrator]: you reap what you sow...be careful with your decisions!')
                         console.log();
                         cont++;
                             }
@@ -233,12 +231,12 @@ the wind storm... `);
 
         console.log(`[Narrator]: Yashiro sets out to find Darius to rid his country of devastation...`);
         console.log();
-        console.log(`[Narrator]: Yashiro passes through bushes and finds two paths. One is on the bridge and the other is a swamp!`)
+        console.log(`[Narrator]: Yashiro passes through bushes and finds two paths. One is on through a bridge and the other is a swamp!`)
         console.log();
 
         while(decisao2!='Y' || decisao2!= 'N'){
 
-                decisao2 = prompt(`[Yashiro]: ${nome}, Shall we cross the bridge that is safer? (Use [Y] for YES or N for NOT):`);
+                decisao2 = prompt(`[Yashiro]: ${nome}, Shall we cross the bridge, which is safer? (Use [Y] for YES or [N] for NO):`);
                 if(decisao2=='Y'){
                         console.log();
                         console.log(`[Yashiro]: Wise decision, ${nome}! let's go ahead! `);
@@ -253,7 +251,7 @@ the wind storm... `);
                         console.log(`[Narrator]: Im not the master mage, but I'll give you some advice... You're in trouble!!`);
                         cont++;
                     }
-                if(decisao2=='Y'|| upDecisao2=='N'){break;} 
+                if(decisao2=='Y'|| decisao2=='N'){break;} 
                 }
         console.log();
         console.log('[Narrator]: After going through the path, Yashiro comes across a chest!! ');
@@ -262,7 +260,7 @@ the wind storm... `);
         console.log();
         while(decisao3!='Y' || decisao3!= 'N'){
 
-                decisao3 = prompt(`[Yashiro]: ${nome}, Shall we open the chest?? (Use Y for YES or N for NOT):`);
+                decisao3 = prompt(`[Yashiro]: ${nome}, Shall we open the chest?? (Use [Y] for YES or [N] for NO):`);
 
                 if(decisao3=='Y'){
                     console.log();
@@ -283,14 +281,14 @@ the wind storm... `);
                     if(decisao3=='Y'|| decisao3=='N'){break;} 
 
                 }
-        console.log(`[Narrator]: With decisions good or bad, we're coming to the end of the Yashiro's saga! (cry if you cry)`);
+        console.log(`[Narrator]: With decisions good or bad, we're coming to the end of Yashiro's saga!`);
         console.log();
         console.log('[Narrator]: Yashiro went ahead and found where Darius is!');
         console.log();
         console.log(`[Yashiro]: I found this stupid... Now it's up to you, ${nome}!`);
         while(decisao4!='Y' || decisao4!= 'N'){
 
-                     decisao4 = prompt(`[Yashiro]: Shall we sneak?? (Use [Y] for YES or [N] for NOT:`);
+                     decisao4 = prompt(`[Yashiro]: Shall we sneak?? (Use [Y] for YES or [N] for NO:`);
                 
             
                 if(decisao4=='y'.toUpperCase()){
@@ -333,5 +331,4 @@ the wind storm... `);
         }
         console.log(`*Thanks for playing! Questions, improvements and compliments: kellbberbarcarolo@gmai.com! * `) 
     }
-}
-        
+}  
