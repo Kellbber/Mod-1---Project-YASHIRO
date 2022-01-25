@@ -22,14 +22,14 @@ while(ling!='BR' || ling!='ENG'){
 }
 while(cont<5){
                 if(ling=='BR'){
-                console.log('*JOGO EM PT-BR*')
+                console.log('*JOGO EM PORTUGUÊS - PT-BR*')
 
                 console.log(`[Yashiro]: Bem-vindo, ${nome.trim().split()}! Meu nome é Yashiro e serei o personagem que você irá guiar!
 Estamos nesse momento em Iônia. O país está em ruínas devido a guerra contra Noxus...
 Sinceramente, escapei por pouco. Perdi minha espada na batalha contra Darius e só fui salvo graças
 a tempestade de vento... `);
                 console.log();
-                
+
                 while(decisao!='S' || decisao!= 'N'){
                 decisao = prompt(`[Yashiro]: ${nome}, deseja ir buscar minha espada? (Use [S] para sim ou [N] para não):`);
                 decisao.toUpperCase().trim()
