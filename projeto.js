@@ -32,7 +32,6 @@ a tempestade de vento... `);
 
                 while(decisao!='S' || decisao!= 'N'){
                 decisao = prompt(`[Yashiro]: ${nome}, deseja ir buscar minha espada? (Use [S] para sim ou [N] para não):`);
-                decisao.toUpperCase().trim()
                 if(decisao=='S'){
                 console.log();
                 console.log('[Narrador]:Depois de uma longa caminhada com sol escaldante, animais perigosos e dunas sem fim...');
