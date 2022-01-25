@@ -51,7 +51,7 @@ a tempestade de vento... `);
                 cont++;  
                  }
                  if(decisao=='S'|| decisao=='N'){break;}
-         }
+                 }
         while(decisao1!='S' || decisao1!= 'N'){
                 decisao1 = prompt(`[Yashiro]: ${nome}, Vamos atrás de mantimentos? (Use [S] para sim ou [N] para não):`);                     
                 if(decisao1=='S'){
@@ -72,7 +72,7 @@ a tempestade de vento... `);
                 }
 
                 if(decisao1=='S'|| decisao1=='N'){break;}
-    }
+                }
                 console.log(`[Narrador]: Yashiro sai em busca de Darius para livrar seu país da devastação...`);
                 console.log();
                 console.log(`[Narrador]:Yashiro passa por arbustos e acha dois caminhos. Um é pela ponte e o outro é um pântano!`)
@@ -86,14 +86,14 @@ a tempestade de vento... `);
                         console.log();
                         contP++;
                         cont++;
-                    }
+                }
                 else if(decisao2=='N'){
                         console.log();
                         console.log(`[Yashiro]: ${nome}, o pântano é complicado, nao tenho antídoto para o veneno de alguns animais da área!`);
                         console.log();
                         console.log('[Narrador]: Não sou o mestre dos magos, mas vou te dar um conselho... Você está por um FIO!');
                         cont++;
-                    }
+                }
                 if(decisao2=='S'|| decisao2=='N'){break;}
                 } 
                 console.log();
@@ -112,7 +112,7 @@ a tempestade de vento... `);
                         console.log();
                         contP++;
                         cont++;
-                    }
+                }
                 else if(decisao3=='N'){
                         console.log();
                         console.log(`[Yashiro]: ${nome}, nâo consigo medir se você está com medo ou só é b.... BONITO, eu quis dizer BONITO!`);
@@ -120,7 +120,7 @@ a tempestade de vento... `);
                         console.log(`[Narrador]: ${nome}, só entre nós... Você não gosta do Yashiro?!`);
                         cont++;
                         
-                    }
+                }
                 if(decisao3=='S'|| decisao3=='N'){break;}
                 }
                 console.log(`...`);
@@ -143,7 +143,7 @@ a tempestade de vento... `);
                         console.log();
                         contP++;
                         cont++;
-                    }
+                }
                 else if(decisao4=='N'){
                         console.log();
                         console.log(`[Yashiro]: ${nome}, Você quer que eu vá pela frente então.. OKAY!`);
@@ -152,7 +152,7 @@ a tempestade de vento... `);
                         console.log();
                         cont++;
                     
-                    }
+                }
                 if(decisao4=='S'|| decisao4=='N'){break;}
                 }
                 console.log();
@@ -197,13 +197,13 @@ the wind storm... `);
                     console.log('[Yashiro]: PER-FECT! I found my sword!')
                     contP++;
                     cont++;
-                    }
+                }
                 else if(decisao=='N'){
                         console.log();
                         console.log(`[Yashiro]: ${nome}, my sword is my soul! However, we will continue the fight!`);
                         console.log();
                         cont++;
-                    }
+                }
                 if(decisao=='Y'|| decisao=='N'){break;}
                           
                 }
@@ -217,7 +217,7 @@ the wind storm... `);
                         console.log();
                         contP++;
                         cont++;
-                            }
+                }
                 else if(decisao1=='N'){
                         console.log();
                         console.log(`[Yashiro]: ${nome}, No food? Are you sure? ok, let's continue...!`);
@@ -225,9 +225,9 @@ the wind storm... `);
                         console.log('[Narrator]: you reap what you sow...be careful with your decisions!')
                         console.log();
                         cont++;
-                            }
+                }
                 if(decisao1=='Y'|| decisao1=='N'){break;}   
-        }
+                }
 
         console.log(`[Narrator]: Yashiro sets out to find Darius to rid his country of devastation...`);
         console.log();
@@ -243,14 +243,14 @@ the wind storm... `);
                         console.log();
                         contP++;
                         cont++;
-                    }
+                }
                 else if(decisao2=='N'){
                         console.log();
                         console.log(`[Yashiro]: ${nome}, the swamp is complicated, I don't have an antidote for the venom of some animals in the region!`);
                         console.log();
                         console.log(`[Narrator]: Im not the master mage, but I'll give you some advice... You're in trouble!!`);
                         cont++;
-                    }
+                }
                 if(decisao2=='Y'|| decisao2=='N'){break;} 
                 }
         console.log();
@@ -270,15 +270,15 @@ the wind storm... `);
                     console.log();
                     contP++;
                     cont++;
-                    }
-                    else if(decisao3=='N'){
+                }
+                else if(decisao3=='N'){
                         console.log();
                         console.log(`[Yashiro]: ${nome}, I can't tell if you're scared or just stu.... STUPENDOUS, I was going to say Stupendous!`);
                         console.log();
                         console.log(`[Narrator]: ${nome}, between us, don't you like him??!`);
                         cont++;
-                    }
-                    if(decisao3=='Y'|| decisao3=='N'){break;} 
+                }
+                if(decisao3=='Y'|| decisao3=='N'){break;} 
 
                 }
         console.log(`[Narrator]: With decisions good or bad, we're coming to the end of Yashiro's saga!`);
@@ -288,9 +288,7 @@ the wind storm... `);
         console.log(`[Yashiro]: I found this stupid... Now it's up to you, ${nome}!`);
         while(decisao4!='Y' || decisao4!= 'N'){
 
-                     decisao4 = prompt(`[Yashiro]: Shall we sneak?? (Use [Y] for YES or [N] for NO:`);
-                
-            
+                decisao4 = prompt(`[Yashiro]: Shall we sneak?? (Use [Y] for YES or [N] for NO:`);
                 if(decisao4=='y'.toUpperCase()){
                 console.log();
                 console.log(`[Narrator]: Yashiro uses his abilities and ambushes Darius`);
@@ -308,27 +306,26 @@ the wind storm... `);
                     console.log();
                 
                 }
-                if(decisao4=='Y'|| decisao4=='N'){
-                    break;} 
-        }
+                if(decisao4=='Y'|| decisao4=='N'){break;} 
+                }
         console.log();
         console.log(`[Narrator]: ${nome} now your decisions will be judged!`);
         console.log();
                 if(contP==0){
                 console.log(`[Narrator]: ${nome}, unfortunately his decisions were flawed and Yashiro died in battle.`);
-        }
+                }
                 else if(contP>=1 && contP<=2){
                 console.log(`[Narrator]: ${nome},  his decisions lead to Yashiro's failure, but he makes it out alive. `);
-        }
+                }
                 else if(contP===3){
                 console.log(`[Narrator]: ${nome}, you almost managed to guide Yashiro to victory. Good luck next time! `);
-        }
+                }
                 else if(contP===4){
                 console.log(`[Narrator]: ${nome},  you guided Yashiro very well! Still, something was missing to defeat Darius...`)
-        }
+                }
                 else if(contP===5){
                 console.log(`[Narrator]: ${nome}, VERY GOOD! You were amazing! Guided Yashiro in the best way and saved Ionia!! `)
-        }
+                }
         console.log(`*Thanks for playing! Questions, improvements and compliments: kellbberbarcarolo@gmai.com! * `) 
-    }
-}  
+                }
+                }  
