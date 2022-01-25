@@ -78,7 +78,7 @@ a tempestade de vento... `);
                 console.log();
 
         while(decisao2!='S' || decisao2!= 'N'){
-                decisao2 = prompt(`[Yashiro]: ${nome}, Vamos pela ponte que é segura? (Use S para sim ou N para nao):`);
+                decisao2 = prompt(`[Yashiro]: ${nome}, Vamos pela ponte que é segura? (Use [S] para sim ou [N] para não):`);
                         
                 if(decisao2=='S'){
                         console.log();
@@ -103,7 +103,7 @@ a tempestade de vento... `);
                 console.log();
 
         while(decisao3!='S' || decisao3!= 'N'){
-                decisao3 = prompt(`[Yashiro]: ${nome}, Vamos abrir? (Use S para sim ou N para nao):`);
+                decisao3 = prompt(`[Yashiro]: ${nome}, Vamos abrir? (Use [S] para sim ou [N] para não):`);
                 if(decisao3=='S'){
                         console.log();
                         console.log(`[Narrador]: Yashiro abre o baú.`);
@@ -123,8 +123,6 @@ a tempestade de vento... `);
                 }
                 if(decisao3=='S'|| decisao3=='N'){break;}
                 }
-
-                console.log(`...`);
                 console.log('[Narrador]: Com as decisões boas ou ruins, estamos chegando ao final da saga de Yashiro!');
                 console.log();
                 console.log();
@@ -134,7 +132,7 @@ a tempestade de vento... `);
                 console.log();
 
          while(decisao4!='S' || decisao4!= 'N'){
-                decisao4 = prompt(`[Yashiro]: Vamos furtivamente? (Use S para sim ou N para nao):`);  
+                decisao4 = prompt(`[Yashiro]: Vamos furtivamente? (Use [S] para sim ou [N] para não):`);  
                 if(decisao4=='S'){
                         console.log();
                         console.log(`[Narrador]: Yashiro usa suas habilidades e embosca Darius!`);
@@ -174,7 +172,7 @@ else if(contP===3){
 else if(contP===5){
          console.log(`[Narrador]: ${nome}, MUITO BEM! Você foi INCRÍVEL! Guiou Yashiro da melhor forma e salvou Iônia! `)
         }
-        console.log(`Obrigado por jogar! Dúvidas, melhorias e elogios: kellbberbarcarolo@gmai.com! * `)              
+        console.log(`*Obrigado por jogar! Dúvidas, melhorias e elogios: kellbberbarcarolo@gmai.com!* `)              
  }
         else{
                 console.log('GAME IN ENGLISH- EUA');       
@@ -318,6 +316,6 @@ the wind storm... `);
                 else if(contP===5){
                 console.log(`[Narrator]: ${nome}, VERY GOOD! You were amazing! Guided Yashiro in the best way and saved Ionia!! `)
                 }
-        console.log(`*Thanks for playing! Questions, improvements and compliments: kellbberbarcarolo@gmai.com! * `) 
+        console.log(`*Thanks for playing! Questions, improvements and compliments: kellbberbarcarolo@gmai.com!* `) 
                 }
                 }  
