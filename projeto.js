@@ -172,7 +172,9 @@ else if(contP===3){
 else if(contP===5){
          console.log(`[Narrador]: ${nome}, MUITO BEM! Você foi INCRÍVEL! Guiou Yashiro da melhor forma e salvou Iônia! `)
         }
-        console.log(`*Obrigado por jogar! Dúvidas, melhorias e elogios: kellbberbarcarolo@gmai.com!* `)              
+        console.log();
+        console.log(`*Obrigado por jogar! Dúvidas, melhorias e elogios: kellbberbarcarolo@gmai.com!* `) 
+        console.log();             
  }
         else{
                 console.log('GAME IN ENGLISH- EUA');       
@@ -316,6 +318,8 @@ the wind storm... `);
                 else if(contP===5){
                 console.log(`[Narrator]: ${nome}, VERY GOOD! You were amazing! Guided Yashiro in the best way and saved Ionia!! `)
                 }
+                console.log();
         console.log(`*Thanks for playing! Questions, improvements and compliments: kellbberbarcarolo@gmai.com!* `) 
+        console.log();
                 }
                 }  
