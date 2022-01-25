@@ -1,8 +1,8 @@
 const prompt = require('prompt-sync')();
 console.log(`Saudações, Invocador! Bem-vindo a história de Yashiro!`);
 console.log(`Greetings, Summoner! Welcome to Yashiro's story!`);
-console.log(`Digite o seu nome: `);
-let nome = prompt('Enter your name:: ');
+console.log(`Digite o seu nome`);
+let nome = prompt('Enter your name: ');
 console.log(`Temos duas opções de linguagem.`);
 console.log(`Temos duas opções de idioma.`);
 let ling = '';
