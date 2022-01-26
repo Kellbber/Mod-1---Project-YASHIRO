@@ -1,6 +1,7 @@
 const prompt = require('prompt-sync')();
 console.log(`Saudações, Invocador! Bem-vindo a história de Yashiro!`);
 console.log(`Greetings, Summoner! Welcome to Yashiro's story!`);
+console.log();
 console.log(`Digite o seu nome`);
 let nome = prompt('Enter your name: ');
 console.log(`Temos duas opções de linguagem.`);
@@ -23,7 +24,9 @@ while(ling!='BR' || ling!='ENG'){
 while(cont<5){
                 if(ling=='BR'){
                 console.log('*JOGO EM PORTUGUÊS - PT-BR*')
-
+                console.log();
+                console.log(`Para melhorar sua experiência, responda sempre com letras maiúsculas!`);
+                console.log();
                 console.log(`[Yashiro]: Bem-vindo, ${nome.trim().split()}! Meu nome é Yashiro e serei o personagem que você irá guiar!
 Estamos nesse momento em Iônia. O país está em ruínas devido a guerra contra Noxus...
 Sinceramente, escapei por pouco. Perdi minha espada na batalha contra Darius e só fui salvo graças
@@ -31,7 +34,7 @@ a tempestade de vento... `);
                 console.log();
 
                 while(decisao!='S' || decisao!= 'N'){
-                decisao = prompt(`[Yashiro]: ${nome}, deseja ir buscar minha espada? (Use [S] para sim ou [N] para não):`);
+                decisao= prompt(`[Yashiro]: ${nome}, deseja ir buscar minha espada? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);
                 if(decisao=='S'){
                 console.log();
                 console.log('[Narrador]:Depois de uma longa caminhada com sol escaldante, animais perigosos e dunas sem fim...');
@@ -53,7 +56,7 @@ a tempestade de vento... `);
                  if(decisao=='S'|| decisao=='N'){break;}
                  }
         while(decisao1!='S' || decisao1!= 'N'){
-                decisao1 = prompt(`[Yashiro]: ${nome}, Vamos atrás de mantimentos? (Use [S] para sim ou [N] para não):`);                     
+                decisao1 = prompt(`[Yashiro]: ${nome}, Vamos atrás de mantimentos? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);                     
                 if(decisao1=='S'){
                 console.log();
                 console.log('[Yashiro]: Ótimo! Assim fico melhor de enfrentar aquele carrasco!');
@@ -77,7 +80,7 @@ a tempestade de vento... `);
                 console.log();
 
         while(decisao2!='S' || decisao2!= 'N'){
-                decisao2 = prompt(`[Yashiro]: ${nome}, Vamos pela ponte que é segura? (Use [S] para sim ou [N] para não):`);
+                decisao2 = prompt(`[Yashiro]: ${nome}, Vamos pela ponte que é segura? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);
                         
                 if(decisao2=='S'){
                         console.log();
@@ -102,7 +105,7 @@ a tempestade de vento... `);
                 console.log();
 
         while(decisao3!='S' || decisao3!= 'N'){
-                decisao3 = prompt(`[Yashiro]: ${nome}, Vamos abrir? (Use [S] para sim ou [N] para não):`);
+                decisao3 = prompt(`[Yashiro]: ${nome}, Vamos abrir? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);
                 if(decisao3=='S'){
                         console.log();
                         console.log(`[Narrador]: Yashiro abre o baú.`);
@@ -131,7 +134,7 @@ a tempestade de vento... `);
                 console.log();
 
          while(decisao4!='S' || decisao4!= 'N'){
-                decisao4 = prompt(`[Yashiro]: Vamos furtivamente? (Use [S] para sim ou [N] para não):`);  
+                decisao4 = prompt(`[Yashiro]: Vamos furtivamente? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);  
                 if(decisao4=='S'){
                         console.log();
                         console.log(`[Narrador]: Yashiro usa suas habilidades e embosca Darius!`);
@@ -177,7 +180,10 @@ else if(contP===5){
         console.log();             
  }
         else{
-                console.log('GAME IN ENGLISH- EUA');       
+                console.log('GAME IN ENGLISH- EUA'); 
+                console.log();
+                console.log(`To improve your experience, always answer with capital letters!`);
+                console.log();      
                 console.log(`[Character]: Welcome, ${nome}! My name is Yashiro and I am the character you will guide!
 We are currently in Ionia. The country is in ruins due to the war against Noxus...
 Honestly, I barely escaped. I lost my sword in the battle against Darius and I was only saved thanks to
@@ -185,7 +191,7 @@ the wind storm... `);
                 console.log(); 
 
         while(decisao!='Y' || decisao!= 'N'){
-                decisao = prompt(`[Yashiro]: ${nome}, do you want to go take my sword? (Use [Y] for YES or [N] for NO):`);    
+                decisao = prompt(`[Yashiro]: ${nome}, do you want to go take my sword? (Use capital letters -> [Y] for YES or [N] for NO):`);    
                 if(decisao=='Y'){
                     console.log();
                     console.log('[Narrator]:After a long walk in the scorching sun, among dangerous animals and endless dunes...');
@@ -207,7 +213,7 @@ the wind storm... `);
                 if(decisao=='Y'|| decisao=='N'){break;}           
                 }
         while(decisao1!='Y' || decisao1!= 'N'){
-                decisao1 = prompt(`[Yashiro]: ${nome}, Shall we look for food? (Use [Y] for YES or [N] for NO):`);  
+                decisao1 = prompt(`[Yashiro]: ${nome}, Shall we look for food? (Use capital letters -> [Y] for YES or [N] for NO):`);  
                 if(decisao1=='Y'){
                         console.log();
                         console.log('[Yashiro]: Great! it will be easy to face that bastard!');
@@ -232,7 +238,7 @@ the wind storm... `);
         console.log();
 
         while(decisao2!='Y' || decisao2!= 'N'){
-                decisao2 = prompt(`[Yashiro]: ${nome}, Shall we cross the bridge, which is safer? (Use [Y] for YES or [N] for NO):`);
+                decisao2 = prompt(`[Yashiro]: ${nome}, Shall we cross the bridge, which is safer? (Use capital letters -> [Y] for YES or [N] for NO):`);
                 if(decisao2=='Y'){
                         console.log();
                         console.log(`[Yashiro]: Wise decision, ${nome}! let's go ahead! `);
@@ -255,7 +261,7 @@ the wind storm... `);
         console.log(`[Yashiro]: this is amazing!`);
         console.log();
         while(decisao3!='Y' || decisao3!= 'N'){
-                decisao3 = prompt(`[Yashiro]: ${nome}, Shall we open the chest?? (Use [Y] for YES or [N] for NO):`);
+                decisao3 = prompt(`[Yashiro]: ${nome}, Shall we open the chest?? (Use capital letters -> [Y] for YES or [N] for NO):`);
                 if(decisao3=='Y'){
                     console.log();
                     console.log(`[Narrador]: Yashiro opened the box.`);
@@ -281,7 +287,7 @@ the wind storm... `);
         console.log(`[Yashiro]: I found this stupid... Now it's up to you, ${nome}!`);
         while(decisao4!='Y' || decisao4!= 'N'){
 
-                decisao4 = prompt(`[Yashiro]: Shall we sneak?? (Use [Y] for YES or [N] for NO:`);
+                decisao4 = prompt(`[Yashiro]: Shall we sneak?? (Use capital letters -> [Y] for YES or [N] for NO:`);
                 if(decisao4=='y'.toUpperCase()){
                 console.log();
                 console.log(`[Narrator]: Yashiro uses his abilities and ambushes Darius`);
@@ -297,8 +303,10 @@ the wind storm... `);
                     console.log();
                     console.log(`HASAKIII - SURIEGUEDOOOON`);
                     console.log();
+                    cont++;
                 }
-                if(decisao4=='Y'|| decisao4=='N'){break;} 
+                if(decisao4=='Y'|| decisao4=='N'){break;}
+
                 }
         console.log();
         console.log(`[Narrator]: ${nome} now your decisions will be judged!`);
@@ -319,7 +327,8 @@ the wind storm... `);
                 console.log(`[Narrator]: ${nome}, VERY GOOD! You were amazing! Guided Yashiro in the best way and saved Ionia!! `)
                 }
                 console.log();
-        console.log(`*Thanks for playing! Questions, improvements and compliments: kellbberbarcarolo@gmai.com!* `) 
+        console.log(`*Thanks for playing! Questions, improvements and compliments: kellbberbarcarolo@gmail.com!* `) 
         console.log();
+
                 }
                 }  
