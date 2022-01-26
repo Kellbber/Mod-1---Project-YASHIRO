@@ -90,7 +90,7 @@ a tempestade de vento... `);
                         console.log();
                         console.log(`[Yashiro]: ${nome}, o pântano é complicado, nao tenho antídoto para o veneno de alguns animais da área!`);
                         console.log();
-                        console.log('[Narrador]: Não sou o mestre dos magos, mas vou te dar um conselho... Você está por um FIO!');
+                        console.log('[Narrador]: Não sou o mestre dos magos, mas vou te dar um conselho... Você está com problemas!');
                         cont++;
                 }
                 if(decisao2=='S'|| decisao2=='N'){break;}
@@ -154,7 +154,8 @@ a tempestade de vento... `);
                 }
 
                 console.log();
-                console.log(`[Narrador]: ${nome} agora as suas decisões serão julgadas!`);
+                console.log(`[Narrador]: ${nome}, agora as suas decisões serão julgadas!`);
+                console.log();
                 console.log();
 if(contP==0){
          console.log(`[Narrador]: ${nome}, infelizmente suas decisões foram falhas e Yashiro morreu em batalha.`);
@@ -172,7 +173,7 @@ else if(contP===5){
          console.log(`[Narrador]: ${nome}, MUITO BEM! Você foi INCRÍVEL! Guiou Yashiro da melhor forma e salvou Iônia! `)
         }
         console.log();
-        console.log(`*Obrigado por jogar! Dúvidas, melhorias e elogios: kellbberbarcarolo@gmai.com!* `) 
+        console.log(`*Obrigado por jogar! Dúvidas, melhorias e elogios: kellbberbarcarolo@gmail.com!* `) 
         console.log();             
  }
         else{
