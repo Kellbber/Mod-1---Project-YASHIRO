@@ -23,7 +23,9 @@ while(ling!='BR' || ling!='ENG'){
 }
 while(cont<5){
                 if(ling=='BR'){
-                console.log('*JOGO EM PORTUGUÊS - PT-BR*')
+                console.log(`-=--=-=-=-=-=-=-=-=-=-=-=-=-`);
+                console.log('\033[34m*JOGO EM PORTUGUÊS - PT-BR*\033[0m');
+                console.log(`-=--=-=-=-=-=-=-=-=-=-=-=-=-`);
                 console.log();
                 console.log(`Para melhorar sua experiência, responda sempre com letras maiúsculas!`);
                 console.log();
@@ -180,7 +182,9 @@ else if(contP===5){
         console.log();             
  }
         else{
-                console.log('GAME IN ENGLISH- EUA'); 
+                console.log(`-=--=-=-=-=-=-=-=-=-=-`);
+                console.log("\033[34m GAME IN ENGLISH- EUA\033[0m");
+                console.log(`-=--=-=-=-=-=-=-=-=-=-`); 
                 console.log();
                 console.log(`To improve your experience, always answer with capital letters!`);
                 console.log();      
