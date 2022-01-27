@@ -21,7 +21,7 @@ while(ling!='BR' || ling!='ENG'){
         ling=prompt(`Only [BR] or [ENG] are accepted as an option!:`);
         if(ling=='BR' || ling=='ENG'){
                 break;
-        }
+                }
 }
 while(cont<5){
                 if(ling=='BR'){
@@ -183,7 +183,7 @@ else if(contP===5){
         console.log();
         console.log(`*Obrigado por jogar! Dúvidas, melhorias e elogios: kellbberbarcarolo@gmail.com!* `) 
         console.log();             
- }
+        }
         else{    
                 console.log();
                 console.log(`-=--=-=-=-=-=-=-=-=-=-`);
@@ -337,6 +337,5 @@ the wind storm... `);
                 console.log();
         console.log(`*Thanks for playing! Questions, improvements and compliments: kellbberbarcarolo@gmail.com!* `) 
         console.log();
-
                 }
                 }  
