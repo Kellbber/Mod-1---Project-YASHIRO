@@ -15,8 +15,8 @@ let decisao2='';
 let decisao3='';
 let decisao4='';
 while(ling!='BR' || ling!='ENG'){
-        console.log('(Opções de linguagem)');
-        console.log('language options:')
+        console.log('(*Opções de linguagem*)');
+        console.log('*language options*')
         console.log(`Somente [BR] ou [ENG] são aceitos como opção!`);
         ling=prompt(`Only [BR] or [ENG] are accepted as an option!:`);
         if(ling=='BR' || ling=='ENG'){
