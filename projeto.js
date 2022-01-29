@@ -18,7 +18,7 @@ while(ling!='BR' || ling!='ENG'){
         console.log('(*Opções de linguagem*)');
         console.log('*language options*')
         console.log(`Somente [BR] ou [ENG] são aceitos como opção!`);
-        ling=prompt(`Only [BR] or [ENG] are accepted as an option!:`);
+        ling=prompt(`Only [BR] or [ENG] are accepted as an option!:`).toUpperCase();
         if(ling=='BR' || ling=='ENG'){
                 break;
                 }
@@ -30,7 +30,6 @@ while(cont<5){
                 console.log('\033[34m*JOGO EM PORTUGUÊS - PT-BR*\033[0m');
                 console.log(`-=--=-=-=-=-=-=-=-=-=-=-=-=-`);
                 console.log();
-                console.log(`Para melhorar sua experiência, responda sempre com letras maiúsculas!`);
                 console.log();
                 console.log(`\x1b[33m[Yashiro]\x1b[0m: Bem-vindo, ${nome.trim().split()}! Meu nome é Yashiro e serei o personagem que você irá guiar!
 Estamos nesse momento em Iônia. O país está em ruínas devido a guerra contra Noxus...
@@ -39,7 +38,7 @@ a tempestade de vento... `);
                 console.log();
 
                 while(decisao!='S' || decisao!= 'N'){
-                decisao= prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, deseja ir buscar minha espada? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);
+                decisao= prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, deseja ir buscar minha espada? ([S] para sim ou [N] para não):`).toUpperCase();
                 if(decisao=='S'){
                 console.log();
                 console.log('\x1b[31m[Narrador]\x1b[0m:Depois de uma longa caminhada com sol escaldante, animais perigosos e dunas sem fim...');
@@ -61,7 +60,7 @@ a tempestade de vento... `);
                  if(decisao=='S'|| decisao=='N'){break;}
                  }
         while(decisao1!='S' || decisao1!= 'N'){
-                decisao1 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Vamos atrás de mantimentos? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);                     
+                decisao1 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Vamos atrás de mantimentos? ([S] para sim ou [N] para não):`).toUpperCase();                     
                 if(decisao1=='S'){
                 console.log();
                 console.log('\x1b[33m[Yashiro]\x1b[0m: Ótimo! Assim fico melhor de enfrentar aquele carrasco!');
@@ -85,7 +84,7 @@ a tempestade de vento... `);
                 console.log();
 
         while(decisao2!='S' || decisao2!= 'N'){
-                decisao2 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Vamos pela ponte que é segura? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);
+                decisao2 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Vamos pela ponte que é segura? ([S] para sim ou [N] para não):`).toUpperCase();
                         
                 if(decisao2=='S'){
                         console.log();
@@ -110,7 +109,7 @@ a tempestade de vento... `);
                 console.log();
 
         while(decisao3!='S' || decisao3!= 'N'){
-                decisao3 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Vamos abrir? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);
+                decisao3 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Vamos abrir? ([S] para sim ou [N] para não):`).toUpperCase();
                 if(decisao3=='S'){
                         console.log();
                         console.log(`\x1b[31m[Narrador]\x1b[0m: Yashiro abre o baú.`);
@@ -139,7 +138,7 @@ a tempestade de vento... `);
                 console.log();
 
          while(decisao4!='S' || decisao4!= 'N'){
-                decisao4 = prompt(`\x1b[33m[Yashiro]\x1b[0m: Vamos furtivamente? (Use sempre MAIUSCULAS -> [S] para sim ou [N] para não):`);  
+                decisao4 = prompt(`\x1b[33m[Yashiro]\x1b[0m: Vamos furtivamente? ([S] para sim ou [N] para não):`).toUpperCase();  
                 if(decisao4=='S'){
                         console.log();
                         console.log(`\x1b[31m[Narrador]\x1b[0m: Yashiro usa suas habilidades e embosca Darius!`);
@@ -187,10 +186,9 @@ else if(contP===5){
         else{    
                 console.log();
                 console.log(`-=--=-=-=-=-=-=-=-=-=-`);
-                console.log("\033[34m GAME IN ENGLISH- EUA\033[0m");
+                console.log("\033[34m *GAME IN ENGLISH - EUA*\033[0m");
                 console.log(`-=--=-=-=-=-=-=-=-=-=-`); 
                 console.log();
-                console.log(`To improve your experience, always answer with capital letters!`);
                 console.log();      
                 console.log(`\x1b[33m[Yashiro]\x1b[0m: Welcome, ${nome}! My name is Yashiro and I am the character you will guide!
 We are currently in Ionia. The country is in ruins due to the war against Noxus...
@@ -199,7 +197,7 @@ the wind storm... `);
                 console.log(); 
 
         while(decisao!='Y' || decisao!= 'N'){
-                decisao = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, do you want to go take my sword? (Use capital letters -> [Y] for YES or [N] for NO):`);    
+                decisao = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, do you want to go take my sword? ([Y] for YES or [N] for NO):`).toUpperCase();    
                 if(decisao=='Y'){
                     console.log();
                     console.log('\x1b[31m[Narrator]\x1b[0m: After a long walk in the scorching sun, among dangerous animals and endless dunes...');
@@ -221,7 +219,7 @@ the wind storm... `);
                 if(decisao=='Y'|| decisao=='N'){break;}           
                 }
         while(decisao1!='Y' || decisao1!= 'N'){
-                decisao1 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Shall we look for food? (Use capital letters -> [Y] for YES or [N] for NO):`);  
+                decisao1 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Shall we look for food? ([Y] for YES or [N] for NO):`).toUpperCase();  
                 if(decisao1=='Y'){
                         console.log();
                         console.log('\x1b[33m[Yashiro]\x1b[0m: Great! it will be easy to face that bastard!');
@@ -246,7 +244,7 @@ the wind storm... `);
         console.log();
 
         while(decisao2!='Y' || decisao2!= 'N'){
-                decisao2 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Shall we cross the bridge, which is safer? (Use capital letters -> [Y] for YES or [N] for NO):`);
+                decisao2 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Shall we cross the bridge, which is safer? ([Y] for YES or [N] for NO):`).toUpperCase();
                 if(decisao2=='Y'){
                         console.log();
                         console.log(`\x1b[33m[Yashiro]\x1b[0m: Wise decision, ${nome}! let's go ahead! `);
@@ -269,7 +267,7 @@ the wind storm... `);
         console.log(`\x1b[33m[Yashiro]\x1b[0m: this is amazing!`);
         console.log();
         while(decisao3!='Y' || decisao3!= 'N'){
-                decisao3 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Shall we open the chest?? (Use capital letters -> [Y] for YES or [N] for NO):`);
+                decisao3 = prompt(`\x1b[33m[Yashiro]\x1b[0m: ${nome}, Shall we open the chest?? ([Y] for YES or [N] for NO):`).toUpperCase();
                 if(decisao3=='Y'){
                     console.log();
                     console.log(`\x1b[31m[Narrator]\x1b[0m: Yashiro opened the box.`);
@@ -295,7 +293,7 @@ the wind storm... `);
         console.log(`\x1b[33m[Yashiro]\x1b[0m: I found this stupid... Now it's up to you, ${nome}!`);
         while(decisao4!='Y' || decisao4!= 'N'){
 
-                decisao4 = prompt(`\x1b[33m[Yashiro]\x1b[0m: Shall we sneak?? (Use capital letters -> [Y] for YES or [N] for NO:`);
+                decisao4 = prompt(`\x1b[33m[Yashiro]\x1b[0m: Shall we sneak?? ([Y] for YES or [N] for NO:`).toUpperCase();
                 if(decisao4=='y'.toUpperCase()){
                 console.log();
                 console.log(`\x1b[31m[Narrator]\x1b[0m: Yashiro uses his abilities and ambushes Darius...`);
